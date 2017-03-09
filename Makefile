@@ -26,7 +26,7 @@ pull/%:
 
 # target for pulling base image
 pull/base:
-	docker pull penkit/alpine:latest
+	docker pull penkit/alpine:3.5
 
 push: $(addprefix push/,$(shell cat RUBY_VERSIONS)) ;
 push/%:

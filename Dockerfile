@@ -1,4 +1,4 @@
-FROM penkit/alpine:latest
+FROM penkit/alpine:3.5
 
 # run as non-root user
 ENV RUN_AS ruby
